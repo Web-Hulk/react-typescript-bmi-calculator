@@ -1,0 +1,20 @@
+.table-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  .table-column {
+    .table-item {
+      border: 1px solid gray;
+      padding: 12px;
+      min-height: 75px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &:nth-child(1) {
+        font-weight: bold;
+      }
+    }
+  }
+}
